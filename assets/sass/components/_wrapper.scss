@@ -97,7 +97,7 @@
 			body.is-preload & {
 				> .inner {
 					opacity: 0;
-					@include vendor('transform', 'translateY(1em)');
+					@include vendor('transform', 'translateY(0em)');
 				}
 			}
 		}
